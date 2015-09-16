@@ -1,0 +1,109 @@
+body {
+
+	margin:0;
+	background:pink;
+	font-family:helvetica;
+}
+
+/*Layout
+--------------------------------------*/
+
+h1 {
+
+	font-size:40px;
+
+}
+
+h2 {
+
+	color:#181818;
+
+}
+
+p {
+
+	color:#2f3030;
+
+}
+hr {
+
+	border:1px solid grey;
+	margin:2em 1.5em -6em 1.5em;
+
+}
+
+header,
+.container,
+footer {
+
+	margin:0 auto;
+	width:88%;
+	max-width:960px;
+}
+
+.container {
+
+	background:rgba(255,255,255,0.5);
+	padding-left:1em;
+	padding-right:1em;
+}
+
+
+section {
+
+	padding-top:7em;
+}
+
+
+
+/*Navigation
+--------------------------------------*/
+
+nav ul {
+
+	padding:0;
+}
+
+nav ul li {
+
+	float:left;
+	margin-right:.5em;
+	list-style:none;
+}
+
+nav ul li a {
+
+	padding:0.5em 1em;
+	background:darkgrey;
+	color:white;
+	border-radius:15px;
+	transition: all 1s ease-in-out;
+}
+
+nav ul li a:hover {
+
+	background:#f7c2eb;
+	color:darkgrey;
+
+}
+
+/* Misc.
+------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
+
+/*Sticking
+--------------------------------------*/
+
+.sticky {
+
+	position:fixed;
+	background:rgba(255,255,255,0.7);
+	width:100%;
+}
